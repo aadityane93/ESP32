@@ -11,8 +11,8 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const char* ssid = "Vodafone-590C";
-const char* password = "axFJ9NALrh4Yd4zm";
+const char* ssid = "ssid";
+const char* password = "pass";
 
 const String url = "http://api.coindesk.com/v1/bpi/currentprice/BTC.json";
 
